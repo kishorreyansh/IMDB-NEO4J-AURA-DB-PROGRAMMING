@@ -1,4 +1,4 @@
-# Creating in Virtual Environment:
+### Creating in Virtual Environment:
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/2e453691-43c3-495e-9458-65222c28ac94)
 
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/a59704a4-226c-4c86-a37f-d2a84c45e811)
@@ -6,12 +6,12 @@
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/cf3cb584-cb16-4ab9-84eb-46632cf8b080)
 
 
-# POSTMAN API:
+### POSTMAN API:
 
-# GET API : http://127.0.0.1:5000/imdb
+### GET API : http://127.0.0.1:5000/imdb
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/cd5e9bf4-f93b-4c42-bbf8-dc50c828a95f)
 
-# POST API : http://127.0.0.1:5000/imdb
+### POST API : http://127.0.0.1:5000/imdb
 
 {
         "description": "A KALKI is based on Mahabharat.",
@@ -26,10 +26,10 @@
     
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/3d70241d-6c2a-4180-a731-37982b0c3c49)
 
-# DELETE API : http://127.0.0.1:5000/imdb/KALKI
+### DELETE API : http://127.0.0.1:5000/imdb/KALKI
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/43be81dc-10a6-4436-af8b-5c523a4b7c21)
 
-# PATCH API : http://127.0.0.1:5000/imdb/KALKI
+### PATCH API : http://127.0.0.1:5000/imdb/KALKI
 
 {
         "description": "A KALKI is based on Mahabharat. Prabhas and Deepika acted in it",
@@ -39,10 +39,10 @@
     
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/fc35639e-9e0f-4d45-85b3-66f79e7893f5)
 
-# GET API USING TITLE : http://127.0.0.1:5000/imdb/KALKI
+### GET API USING TITLE : http://127.0.0.1:5000/imdb/KALKI
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/060030c3-0387-4ae5-b2fa-a5ec9e128c31)
 
-# NEO4J STEPS:
+### NEO4J STEPS:
 
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/khomsun2013/ADB/main/IMDB-Movie-Data.csv" AS row
 WITH row.Ids AS i, row.Title AS t, row.Description AS d, row.Year AS y, row.Runtime AS r, row.Rating AS rt, row.Votes AS v, row.Revenue AS rv
