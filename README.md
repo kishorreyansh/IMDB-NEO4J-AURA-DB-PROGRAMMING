@@ -42,7 +42,7 @@
 # GET API USING TITLE : http://127.0.0.1:5000/imdb/KALKI
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/060030c3-0387-4ae5-b2fa-a5ec9e128c31)
 
-## NEO4J STEPS:
+# NEO4J STEPS:
 
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/khomsun2013/ADB/main/IMDB-Movie-Data.csv" AS row
 WITH row.Ids AS i, row.Title AS t, row.Description AS d, row.Year AS y, row.Runtime AS r, row.Rating AS rt, row.Votes AS v, row.Revenue AS rv
