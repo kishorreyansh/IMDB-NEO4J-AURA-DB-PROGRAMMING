@@ -71,6 +71,14 @@ RETURN ac, mo
 
 ![image](https://github.com/kishorreyansh/IMDB-NEO4J-AURA-DB-PROGRAMMING/assets/140970519/444007bb-100e-4157-a859-fbc64a127c6b)
 
+# Neo4j
+![image](https://github.com/user-attachments/assets/27c75b32-07d6-4193-86bd-b27651a66337)
+![image](https://github.com/user-attachments/assets/205daf3d-2f38-4312-bd3d-317ab54850a1)
+![image](https://github.com/user-attachments/assets/0d677e84-2178-4811-a179-a0b4cfea9163)
+
+
+
+
 
 
 
